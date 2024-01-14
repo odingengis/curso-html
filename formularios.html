@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML 5</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <label for = "nombre">Nombre:</label>
+        <input type = "text" id = "nombre" placeholder = "Nombre..."/>
+        <div>
+        <div for = "password">
+        <input type = "password" id = "password" placeholder = "Password" />
+        </div>
+        </label>
+        <label for = "descripcion">Descripcion</label>
+        <textarea id = "descripcion"></textarea>
+        <div>
+        <input type = "radio" name = "genero"id = "hombre" value = "hombre" />
+        Hombre
+        </div>
+        <input type = "radio" name = "genero" id = "mujer" value = "mujer" />
+        Mujer
+        </div>
+        <div>
+            <select id = "genero">
+                <option value = "hombre">Hombre</option>
+                <option value = "mujer">Mujer</option>
+             
+            </select>
+        </div>
+        <label>
+            <input type = "checkbox"/>Mayor de edad
+        </label>
+        <label>
+            <input type = "checkbox"/>Menor de edad
+        </label>
+        <div>
+            <input type = "date"/>
+        </div>
+        <div>
+            URL:
+            <input type = "url"/>
+        </div>
+        <div>
+        <label for ="enviar">Enviar</label>
+       <input type = "submit" value = "Enviar"/>
+       <input type = "reset" value = "Limpar Datos"/>
+       </div>
+       </fieldset>
+    </form>
+</body>
+</html>
